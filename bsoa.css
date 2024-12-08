@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "press start 2p";
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  nav {
+    height: 80px;
+    background: #fdcc04;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem calc((100vw - 1300px) / 2);
+  }
+  
+  .logo {
+    color: #000;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+    
+    
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+    padding: 0 1.5rem;
+  }
+  
+  nav a:hover {
+    color: #fff;
+  }
+  
+  .hero {
+    background: #fdcc04;
+  
+  }
+  
+  .hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 3rem calc((100vw - 1300px) / 2);
+  }
+  
+  .column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #000;
+    padding: 0rem 2rem;
+    
+    
+  }
+  
+  .column-left h1 {
+    margin-bottom: 1rem;
+    font-size: 50px;
+    padding-bottom: 10px;
+    padding-left: 150px;
+   
+    
+  }
+  
+  .column-left p {
+    margin-bottom: 1px;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    padding: 15px;
+  }
+  
+  button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: #fcf7f7;
+    background: #1157da00;
+    cursor: pointer;
+    border-radius: 1000px;
+    background-color: black;
+    
+   
+  }
+  
+  button:hover, :active{
+    
+    color: #fff;
+    background-color: black;
+    text-decoration: none;
+    z-index: 0;
+    box-shadow: 40px 0 100px rgba(7, 7, 7, 0.966), -40px 0 100px rgba(0, 110, 255, 0.719);
+    z-index: 1;
+  }
+
+  button::after {
+
+    content:'';
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, rgba(31, 153, 202, 0.644), rgba(236, 27, 131, 0.562));
+    border-radius: 1000px;
+    z-index: -1;
+   
+  }
+  
+  a:hover, a:active {
+
+    background: #eceeec;
+    color: #000;
+    text-decoration: none;
+  }
+
+  a:link, a:visited {
+
+    color: #000000;
+    background: #f3000000;
+    text-decoration: none;
+    display: inline-block;
+    border: none;
+  }
+  
+  .column-right {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 80%;
+    
+  }
+
+  span{
+    font-size: 12px;
+    background-color: #fdcc04;
+    display: flex;
+  
+  }
+  
+  .return{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    
+  }
+  
+
+
+  /*this is responsive area for mobile phone with width of max width of 480 size of the screen*/
+
+
+  @media (max-width: 480px) {
+    .logo {
+        font-size: 15px;
+    }
+    
+    .nav-items {
+        font-size: 12px;
+    }
+
+    .column-left {
+        margin-bottom: 90px;
+        justify-content: flex-start;
+        
+    }
+
+    .hero-container {
+      display: flex;
+      justify-content: flex-start;
+    }
+
+
+    .column-left p {
+        margin: 5px;
+        padding-top: 5px;
+        font-size: 15px;
+    }
+
+    .column-left h1 {
+        margin-bottom: 20px;
+        padding: 5px;
+        font-size: 25px;
+    }
+
+    section h2 {
+        font-size: 1.4em;
+    }
+    
+    section p {
+        font-size: 0.8em;
+    }
+
+
+.button {
+
+    padding: 12px;
+    font-size: 15px;
+    border: none;
+    color: #fdcc04;
+    background: #000;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+button:hover {
+    
+  color: #fff;
+  text-decoration: none;
+}
+
+.hero-image {
+  width: 0;
+  height: 0;
+
+
+  
+}
+  
+}
+

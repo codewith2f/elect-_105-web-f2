@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="NEWLOGO-STCAST.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="main.css">
+    <title>STCAST SIMPLE WEBPAGE 2F</title>
+
+    <style>
+
+        h2 {
+            text-decoration: underline;
+            text-transform: uppercase;
+            display: flex;
+            flex-direction: column;
+            letter-spacing: 2px;
+            text-align: center;
+           color: aliceblue;
+            
+
+        }
+        
+        .picture-content {
+            max-width: 500px;
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            height: auto;
+            float: left;
+            border: 2px solid rgb(30, 30, 182); 
+            border-radius: 10px;  
+            margin: 10px;
+            background-size: 100% 100%;
+            
+        }
+
+        
+
+
+        abbr {
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        button {
+            width: 100%;
+            height: auto;
+            padding: 1em 2em;
+            font-size: 23px;
+            background-color: #ff090900;
+            border: none;
+            border-radius: 1000px;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        button::after {
+            content:'';
+            position: absolute;
+            height: 107%;
+            width: 102%;
+            border-radius: 1000px;
+            background-image: linear-gradient(to bottom right, rgb(41, 41, 156), rgb(204, 0, 51));
+            z-index: -1;
+            color: blueviolet;
+            
+        }
+
+        button:hover {
+            z-index: 0;
+            box-shadow: 40px 0 100px rgb(0, 0, 255), -40px 0 100px rgb(255, 0, 0);
+            color: #fcdd04;
+            transition: all 2s;
+        }
+
+        .hours-openclose {
+            list-style: none;
+            text-align: center;
+        }
+
+        .contact-section {
+            list-style: none;
+            font-size: 15px;
+        }
+
+        .box-mp4 {
+            height: 400px;
+            position: relative;
+        }
+
+        .video-mp4 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            
+            
+        }
+        .stcast-canary {
+            font-size: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #f9f8ff;
+            line-height: 2;
+            margin-left: 20%;
+            margin-right: 20%;
+        }
+
+        span {
+            display: flex;
+            color: black;
+
+        }
+
+        span p{
+            
+            align-items: flex-end;
+            
+        }
+
+        
+
+        
+    /* THIS SECTION IS FOR RESPONSIVE mobile phones with the maxwidth 490px screen size*/
+
+        @media (max-width: 490px) {
+
+            .content h2 {
+                font-size: 20px;
+                margin-left: 60px;
+                margin-top: 30px;
+                padding-top: 30px;
+                padding-left: 30px;
+            }
+
+            .picture-content {
+                width: 80%;
+                height: auto;
+                border: 2px solid red;
+
+               
+                
+            }
+
+        #about .content p {
+                font-size: 20px;
+                text-align: justify;
+            }
+
+            footer h1 {
+            font-size: 20px;
+        }
+       .contact-section p{
+        font-size: 15px;
+       }
+
+       .stcast-canary {
+            font-size: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #f9f8ff;
+            line-height: 2;
+            margin-left: 20%;
+            margin-right: 20%;
+            text-align: center;
+        }
+
+        .menu-area {
+           font-size: 15px;
+          
+            
+        }
+        .menu-area ul li{
+           font-size: 10px;
+           margin: 0;    
+         
+        }
+        .nav a {
+            font-size: 10px;
+        }
+        .nav a:hover {
+            font-size: 15px;
+        }
+
+        span{
+            font-size: 12px;
+        }
+        }
+
+       
+
+       
+    </style>
+
+</head>
+<body>
+    <div class="menu-area">
+        <a href="#" class="logo">&lbrace;code&colon;with-2F&semi;&rbrace;</a>
+       
+        <ul class="nav">
+           
+            <li><a href="social-media.html">social media</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="stcast-vmg.html">VMG</a></li>
+
+       
+        </ul>
+        
+    </div>
+    
+    <section id="home">
+        <div class="content">
+            <h1>Welcome adventurer</h1>
+          
+            <a href="#about">
+                <button>GET STARTED</button>
+            </a>
+                
+        </div>
+    </section>
+
+    <section id="about">
+        
+        <div class="content">
+            <img class="picture-content"src="school.jpg">
+            
+            
+            <br><br>
+            <P>
+                <abbr title="SANTO TOMAS COLLEGE OF AGRICULTURE SCIENCES AND TECHNOLOGY">STCAST</abbr> was founded in 2018 under the administration of former Mayor Daniel Batosalem Jr. The establishment of the local college was perceived to be a hostile takeover in a bid to cease the operation and eventually replace the extension campus of the University of Southeastern Philippines (USEP). 
+
+But the establishment and operation of STCAST that time was marred with irregularities. Whats more appalling was that the national government did not yet subsidize its operation like state-owned Universities and Colleges (SUCs). 
+
+Tuition refunds for USEP coeds, delayed salaries of college teachers, and the flawed STCAST ordinance was among the issues and concerns that highlighted the major mess in STCAST overall operations. 
+
+All these and more prompted the Evangelista administration to take a decisive step to solve the problems in the LGU-owned STCAST since the issues were lingering and were left unresolved during the Batosalem administration. </p>
+
+<p>
+    SANTO TOMAS, Davao del Norte (OCTOBER 15, 2021) Commission on Higher Education (CHED) awarded institutional recognition to the Santo Tomas College of Agriculture, Sciences and Technology &lpar;STCAST&rpar; making it a full-fledged, CHED  recognized local college owned by the Municipal Government of Santo Tomas. 
+
+The formal awarding ceremony dubbed as “Gawad Parangal”, held on October 15, 2021, at Davao del Sur Coliseum, was attended by STCAST President Dr. Diobien C. Flores, Vice President for Academic Affairs Dr. Hazel C. Montepio and Municipal Administrator Atty. Elisa Evangelista- Lapiña. 
+
+They received the Certificate of Eligibility for the Institutional Recognition and the Certificate of Program Compliance (COPC) of the four programs, namely: Bachelor of Public Administration (BPA), Bachelor of Science in Office Administration (BSOA), Bachelor of Technical-Vocational Education (BTVTED) and Bachelor of Science in Agribusiness (BSAB) on the “Gawad Parangal” for Higher Education Institutions (HEIs) in Davao Region on October 15, 2021 at Davao del Sur Coliseum.
+
+No less than CHED Chairman Prospero E. De Vera III and Unified Student Financial Assistance System for Tertiary Education (UniFAST) OIC Executive Director IV Atty. Ryan L. Estevez awarded the Certificate of Eligibility to STCAST President Dr. Diobien C. Flores and Municipal Administrator Atty. Elisa Evangelista- Lapiña who represented Santo Tomas Mayor Ernesto Evangelista on his behalf. 
+</p>
+<br><br>
+<p>
+    The Santo Tomas College of Agriculture, Sciences, and Technology (STCAST), located in Santo Tomas, Davao del Norte, is a higher education institution recognized by the Commission on Higher Education (CHED). It offers various programs, including Bachelor of Public Administration, Bachelor of Science in Office Administration, Bachelor of Technical-Vocational Teacher Education, and Bachelor of Science in Agribusiness. The college has achieved institutional recognition and compliance with CHED standards, ensuring quality education for its students.
+
+Under the leadership of its president, Dr. Diobein C. Flores, STCAST has seen significant growth, including infrastructure development, securing subsidies, and implementing a free education program under Republic Act 10931. The college is dedicated to advancing education in agriculture, sciences, and technology, emphasizing innovation and excellence.
+</p>
+</div>
+</section>
+
+<section>
+<div class="box-mp4">
+<div class="video-mp4">
+<video controls>
+    <source src="Stcast.mp4_compressed.mp4" type="video/mp4">
+    
+  </video>
+</div>   
+    </div>
+</section>
+<p class="stcast-canary">
+    [𝗖𝗢𝗟𝗟𝗘𝗚𝗘 𝗡𝗘𝗪𝗦] Santo Tomas College of Agriculture, Sciences and Technology welcomed the old and new students, stepping into a new year full of exciting events as the Academic Year 2024-2025 opening of classes officially began yesterday, August 12, 2024, following the face-to-face, online, assessment, and modular modalities.
+    Watch the full coverage via Ariane Grace Selgas.
+    Videographer: Raven Donaire | The Canary 
+    Video Editor: Marjon Carl Casroverde | The Canary
+    #TheCanary 
+    #hoveringstoriesunravelingtruths 
+    #STCAST &copy;The Canary
+</p>
+ <footer>
+    <section id="contact">
+        <div class="content-container">
+            <h2>contact</h2>
+     
+            <p class="contact-section">
+                Address: GJPC+8XQ, Santo Tomas, Davao del Norte <br>
+                Hours Open/Close   
+                <ul class="list-sched">
+                    <li>MONDAY-FRIDAY- 9AM-5PM</li>
+                    <li>SATURDAY-SUNDAY- CLOSE</li>
+                    <li>Phone: 0998 983 1510</li>
+                </ul>
+            </p>
+            
+<p><span>&copy code_with_2f 2024</span></p>
+                
+            
+            
+        </div>
+    </section>
+</footer>
+    
+
+</body>
+</html>
+
+    

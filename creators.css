@@ -1,0 +1,346 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0d0db6;
+    background-image: url(cars4.jpg);
+    width: 100%;
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    animation: change 40s infinite;
+   
+   
+}
+
+@keyframes change {
+    0% {
+        background-image: url(cars2.jpg)
+    }
+
+    5% {
+        background-image: url(cars3.jpg);
+    }
+
+    15% {
+        background-image: url(cars4.jpg);
+     }
+
+    20% {
+        background-image: url(cars5.jpg);
+     }
+
+    25% {
+        background-image: url(cars4.jpg);
+     }
+   
+    30% {
+        background-image: url(cars7.jpg); 
+    }
+    35% {
+        background-image: url(cars8.jpg); 
+    }
+    40% {
+        background-image: url(motor1.jpg); 
+    }
+    45% {
+        background-image: url(motor2.jpg);
+    }
+    50% {
+        background-image: url(motor3.jpg); 
+    }
+    55% {
+        background-image: url(motor4.jpg); 
+    }
+    60% {
+        background-image: url(motor4.jpg); 
+    }
+    65% {
+        background-image: url(dirtmotor1.jpg); 
+    }
+    70% {
+        background-image: url(dirtbike2.jpg); 
+    }
+    75% {
+        background-image: url(dirtbike3.jpg); 
+    }
+    80% {
+        background-image: url(dirtbike4.jpg); 
+    }
+    85% {
+        background-image: url(dirtbike6.jpg); 
+    }
+    90% {
+        background-image: url(cars2.jpg); 
+    }
+    95% {
+        background-image: url(dirtbike5.jpg); 
+    }
+    100% {
+        background-image: url(dirtbike8.jpg); 
+    }
+    
+    }
+
+audio{
+    width: 1px;
+    }
+header {
+    background-color: #33333300;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+    color: #fff;
+}
+
+section p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #fff;
+    
+}
+
+.img1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    border: 2px solid rgba(255, 0, 0, 0);
+    background-color: #33333300;
+    
+}
+
+
+
+.imgp1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5px;
+    background-repeat: no-repeat;
+    text-align: justify;
+    color: white;
+}
+
+.img2 {
+    display: flex;
+    flex-direction: row;
+    background-repeat: no-repeat;
+    border: 2px solid rgba(255, 0, 0, 0);
+    background-color: #33333300;
+    color: white;
+
+}
+
+.imgp2 {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    margin-left: 5px;
+    text-align: justify;
+    color: #f4f4f4;
+}
+
+.self-description1 {
+    text-align: justify;
+}
+
+.self-description2 {
+    text-align: justify;
+}
+
+.source {
+    display: flex;
+    flex-direction: column;
+}
+
+.source a {
+    text-decoration: none;
+}
+
+button{
+    display: block;
+    align-items: right;
+    margin-left: 20px;
+    width: 100px;
+    height: auto;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #333;
+    color: #f4f4f4;
+}
+
+button:hover {
+    color: red;
+    text-decoration: none;
+    
+}
+button:active {
+    text-decoration: none;
+}
+
+.changefz  {
+    color: green;
+}
+
+.changefz:hover {
+    font-size: 30px;
+}
+
+.changefcolor {
+    color: #000000;
+}
+
+.changefcolor:hover {
+    color: red;
+}
+
+.changebgcolor {
+    background-color: rgba(255, 255, 255, 0);
+    color: red;
+}
+
+.changebgcolor:hover {
+   background-color: black;
+}
+
+.letterspacing {
+   color: 	#1877F2;
+}
+
+.letterspacing:hover {
+    letter-spacing: 10px;
+}
+
+.textdecor {
+   color: violet;
+}
+
+.textdecor:hover {
+    text-decoration: underline;
+}
+
+.transformtext {
+   color: purple;
+}
+
+.transformtext:hover {
+   text-transform: uppercase;
+}
+
+.download p {
+    font-size: 23px;
+    color: #fff;
+}
+
+.download ul li {
+    font-size: 23px;
+    color: black;
+}
+#download-section .download {
+    background-color: #f4f4f436;
+    animation: download .5s infinite;
+}
+
+@keyframes download {
+  from {background-color: rgb(251, 255, 0);}
+  to {background-color: rgb(0, 255, 179);
+        background-color: rgb(240, 0, 0);
+       
+}
+}
+
+
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
+    
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+    
+    section h2 {
+        font-size: 1.6em;
+    }
+    
+    section p {
+        font-size: 0.9em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    
+    header p {
+        font-size: 0.9em;
+    }
+    
+    section {
+        margin: 5px;
+        padding: 10px;
+    }
+    
+    section h2 {
+        font-size: 1.4em;
+    }
+    
+    section p {
+        font-size: 0.8em;
+    }
+
+    #download-section .download {
+    background-color: #f4f4f400;
+    animation-duration: 2s;
+    animation: mymove 5s infinite;
+}
+
+button a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+}
+
+button:hover, button:active {
+    text-decoration: none;
+}
+
+}
+
+footer{
+    font-size: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>STCAST SOCIAL MEDIA/NEWS 2F</title>
+  <link rel="icon" href="NEWLOGO-STCAST.jpg" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="social-media.css">
+
+
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+
+     
+      <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="main.html">back</a></li>
+      <li><a href="https://www.facebook.com/STCAST18" target="_blank">facebook</a></li>
+      <li><a href="https://www.facebook.com/stcastscholarship" target="_blank">scholarship</a></li>
+      <li><a href="https://www.facebook.com/thecanary.stcast" target="_blank">news and media canary</a></li>
+      <li><a href="https://www.facebook.com/STCASTBSOA" target="_blank">BSOA</a></li>
+      <li><a href="bsoa.html">More about BSOA</a></li>
+      <li><a href="creators.html">creators profile</a></li>
+      
+    </ul>
+
+    <ul>
+      <li class="logo2"><a href="#">&lt;code&UnderBar;with-2F&gt;</a></li>
+      <li class="hideOnMobile"><a href="main.html">back</a></li>
+      <li class="hideOnMobile"><a href="https://www.facebook.com/STCAST18" target="_blank">facebook</a></li>
+      <li class="hideOnMobile"><a href="https://www.facebook.com/stcastscholarship" target="_blank">scholarship</a></li>
+      <li class="hideOnMobile"><a href="https://www.facebook.com/thecanary.stcast" target="_blank">news and media canary</a></li>
+      <li class="hideOnMobile"><a href="https://www.facebook.com/STCASTBSOA" target="_blank">BSOA</a></li>
+      <li class="hideOnMobile"><a href="bsoa.html">More about BSOA</a></li>
+      <li class="hideOnMobile"><a href="creators.html">creators profile</a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+
+  <script>
+    function showSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar(){
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+</body>
+</html>
